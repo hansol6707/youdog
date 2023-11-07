@@ -1,0 +1,32 @@
+:root{
+  --main-color:#68A35F;
+  --accent-color:#e29658;                  
+  --text-color:#5b5b5b;  
+
+  --white-color:#fcfeff;
+
+  --font-title-size: 40px;
+  --font-mid-size: 26px;
+  --font-sub-size: 20px;
+
+  --font-title: 'the jamsil 3 regular';
+  --letter-title-spacing: 0.4rem;
+
+  --padding-basic: 100px; 
+}
+html{
+  font-size: 16px;
+  font-family: 'the jamsil 2 regular';
+  letter-spacing: 0.2rem;
+}
+*{box-sizing: border-box; margin: 0; padding: 0;}
+body{line-height: 1;}
+ul{list-style: none;}
+
+.wrap{
+  width: 1200px;
+  margin: auto;
+}
+a{text-decoration: none;
+  color:inherit
+}
